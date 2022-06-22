@@ -4,8 +4,8 @@ if(isset($_GET['phone'])){
   date_default_timezone_set('Africa/Nairobi');
 
   # access token
-  $consumerKey = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx'; //Fill with your app Consumer Key
-  $consumerSecret = 'yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy'; // Fill with your app Secret
+  $consumerKey = 'ovQEAb0aOsbBcJTzGzf6ABG0iMfNt8EU'; //Fill with your app Consumer Key
+  $consumerSecret = '171uGpKZ4JMpQnUo'; // Fill with your app Secret
 
   # define the variales
   # provide the following details, this part is found on your test credentials on the developer account

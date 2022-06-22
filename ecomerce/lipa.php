@@ -3,8 +3,8 @@
   date_default_timezone_set('Africa/Nairobi');
 
   # access token
-  $consumerKey = 'WBO40j0jMAthf4Go9hgjAPLr8BtSlnSd'; //Fill with your app Consumer Key
-  $consumerSecret = 'hGF79OCNOSeIPuaQ'; // Fill with your app Secret
+  $consumerKey = 'ovQEAb0aOsbBcJTzGzf6ABG0iMfNt8EU'; //Fill with your app Consumer Key
+  $consumerSecret = '171uGpKZ4JMpQnUo'; // Fill with your app Secret
 
   # define the variales
   # provide the following details, this part is found on your test credentials on the developer account
@@ -22,9 +22,9 @@
     for developer/test accounts, this money will be reversed automatically by midnight.
   */
   
-  $PartyA = '254700711233'; // This is your phone number, 
-  $AccountReference = 'eric';
-  $TransactionDesc = 'test';
+  $PartyA = '254740782174'; // This is your phone number, 
+  $AccountReference = 'EricK';
+  $TransactionDesc = 'Test';
   
   # Get the timestamp, format YYYYmmddhms -> 20181004151020
   $Timestamp = date('YmdHis');    
@@ -40,7 +40,7 @@
   $initiate_url = 'https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest';
 
   # callback url
-  $CallBackURL = 'https://ericobanks.codestar.co.ke/callback_url.php';  
+  $CallBackURL = 'https://mpesa-int.herokuapp.com/ecomerce/callback_url.php';  
 
   $curl = curl_init($access_token_url);
   curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
